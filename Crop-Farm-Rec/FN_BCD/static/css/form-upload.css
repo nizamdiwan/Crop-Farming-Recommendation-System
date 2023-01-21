@@ -1,0 +1,46 @@
+.form-upload {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+
+
+.form-upload .checkbox {
+  font-weight: 400;
+}
+.form-upload .form-group .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-upload .form-group .form-control:focus {
+  z-index: 2;
+}
+.form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-control:focus {
+  z-index: 2;
+}
+.button {
+  border: 20%;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #A8F387;}
+

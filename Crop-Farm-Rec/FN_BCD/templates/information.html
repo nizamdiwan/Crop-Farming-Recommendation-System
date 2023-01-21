@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>Clever Farming</title>
+  <style>
+    /* CSS code for button */
+    body {
+      background-image: url('static/Farm4.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    /* CSS code for button */
+    .button_css {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    }
+
+    .button_css:hover {
+    color: #ffffff !important;
+    background: #f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s;
+    }
+  </style>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/form-upload.css" rel="stylesheet">
+  </head>
+<body class="text-center">
+    <form class="form-upload" method=post enctype=multipart/form-data action="/info">
+        <h1 class="h3 mb-3 font-weight-normal"><b>CROP/FARMING RECOMMENDATION SYSTEM - AI</b></h1>
+
+        <b>FARMER's FULL NAME : </b><input type=text name=Name size=10 class="form-control" required autofocus><br>
+        <b>FARMER's AGE : </b><input type=text name=Age size=10 class="form-control" required autofocus><br>
+        <b>FARMER's EMAIL ID : </b><input type=text name=Id size=10 class="form-control" required autofocus><br>
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button><br>
+
+    <p class="mt-5 mb-3 text-muted">&copy; UWin AI/ML - 2022-2023</p>
+    </form>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
